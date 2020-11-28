@@ -267,6 +267,12 @@ form {
     font-size: 2em;
 }
 
+footer i{
+    width: 24px;
+    height: 28px;
+    color: white;
+}
+
 footer{
     justify-content: center;
 }
