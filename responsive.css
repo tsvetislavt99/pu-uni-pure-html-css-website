@@ -1,0 +1,156 @@
+@media all and (max-width: 400px){
+    
+    html{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(135,206,250,1) 40%);
+    }
+
+    header{
+        flex-wrap: wrap;
+    }
+    header ul{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-logo{
+        width: 30%;
+        height: 10%;
+        align-self: center;
+    }
+    .main-section{
+        color: #000000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+    }
+    .main-section p{
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: center;
+    }
+    .main-heading{
+        color: #000000;
+        font-size: 2em;
+        align-self: center;
+        text-align: center;
+    }
+    .white-line-div{
+        width: 0;
+        height: 0;
+        border:none;
+    }
+
+    .main-articles{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+
+    .first-article{
+        width: 90%;
+        text-align:justify;
+        margin: auto;
+        font-size: 0.6em;
+
+    }
+
+    .first-article-photos-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }  
+
+    .article-photo{
+        width: 90%;
+        box-shadow: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .article-photo:last-child{
+        margin-bottom: 10px;
+    }
+
+    .second-article{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        font-size: 0.6em;
+    }
+
+    .about-us-section{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-us-section p{
+        font-size: 0.6em;
+    }
+
+    .about-us-heading{
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .resources-links-section{
+        width: 90%;
+        margin: auto;
+    }
+
+    .resources-heading{
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .resources-article{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .resource-div{
+        width: 90%;
+        margin: auto;
+        color: #000000;
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+
+    .contact-us-section{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .form-inner{
+        padding: 5px;
+    }
+
+    .form-inner h1{
+        text-align: center;
+    }
+
+    .form-inner input{
+        padding: 10px;
+        width: 90%;
+    }
+
+    .form-inner textarea{
+        width: 88%;
+    }
+
+    .form-inner button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        font-size: 0.6em;
+    }
+
+}
